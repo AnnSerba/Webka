@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title> Персональная страница </title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="aboutMe.html">Обо мне</a></li>
+        <li><a href="myInterests.html">Мои интересы</a>
+          <ul>
+            <li><a href="myInterests.html#hobby">Моё хобби</a></li>
+            <li><a href="myInterests.html#books">Мои любимые книги</a></li>
+            <li><a href="myInterests.html#musics">Моя любимая музыка</a></li>
+            <li><a href="myInterests.html#films">Мои любимые фильмы</a></li>
+          </ul>
+        </li>
+        <li><a href="study.html">Учёба</a></li>
+        <li><a href="photoAlbum.html">Фотоальбом</a></li>
+        <li><a href="contact.html">Контакт</a></li>
+      </ul>
+    </nav>
+    <aside>
+      <h1>Серба Анна Владимировна</h1>
+      <h2>И-32д</h2>
+      <img src="images/mainImg.jpg" alt="Серба Анна Владимировна">
+    </aside>
+
+    <header>Отправка мне сообщения</header>
+    
+    <main>
+      <h3>Введите ваши данные</h3>
+      <form METHOD=post action="mailto:annserba94@gmail.com" enctype="text/plain"> 
+        <h4>Введите Вашу фамилию, имя и отчество в формате Иванов Иван Иванович:</h4>
+        <p><input type='text' tabindex="1" pattern="([А-ЯЁ][а-яё]+[\-\s]?){3,}" required/></p>
+        <h4>Укажите Ваш пол:</h4>
+        <p><input type='radio' name='s' value='m' checked tabindex="2"/>Мужской<br />
+        <input type='radio' name='s' value='f' tabindex="3"/>Женский</p>
+        <h4>Ваш возраст:</h4>
+        <p><input type='number' value="20" min="1" max="120" step="1" tabindex="4"/></p>
+        <h4>Ваш e-mail</h4>
+        <p><input type="email" name="login" tabindex="5" required/></p>
+        <h4>Введите телефон в формате xxxx-xxx-xx-xx</h4>
+        <p><input type="tel" name="tel" 
+   pattern="[+][73][0-9]{8,10}" tabindex="6" required>
+        </p>
+        <p>
+        <button type="submit" name="submit" tabindex="7">Отправить
+        </button>
+        <button type="reset" name="reset" tabindex="8">
+            Очистить
+        </button>
+        </p>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2015 Имя компании.</p>
+    </footer>
+  </body>
+</html> 

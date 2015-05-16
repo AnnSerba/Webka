@@ -1,0 +1,43 @@
+aside{
+    float: left;
+    width: 240px;
+    height: 100%;
+    margin: 0px;
+    border-width: 0px 5px 0px 0px;
+    border-style: solid;
+}
+aside section{
+    width: auto;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.7);
+}
+aside header{
+    width: 100%;
+    padding: 0px;
+    margin: auto;
+}
+aside header h1{
+    color: #fff;
+    width: auto;
+    font-size: 1.3em;
+    margin: auto;
+    padding: 5px;
+    text-align: center;
+    background-color: rgba(220,0,0,0.9);
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+}
+aside header h2{
+    font-size: 1em;
+    padding: 0px;
+    margin: 0;
+    text-align: center;
+}
+
+aside img{
+    margin: auto;
+    width: 100%;
+}

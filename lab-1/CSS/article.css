@@ -1,0 +1,101 @@
+article{
+    width: 623px;
+    margin: 0px;
+    padding: 0px;
+    float: right;
+}
+article section,
+article form{
+    width: auto;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(255,255,255,0.7);
+
+}
+article section section, 
+article section form{
+    border-style: dashed;
+    border-color: rgba(220,0,0,1);
+}
+article header{
+    width: auto;
+    margin:auto;
+    background-color: rgba(0,0,220,0.7);
+    text-align: center;
+    float: center;
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+}
+article header a{
+    text-decoration: none;
+}
+article header h1{
+    font-size: 1.5em;
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+article header h2{
+    font-size: 1em;
+    width: 100%;
+    margin: 0px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+}
+article time{
+}
+article section section header,
+article section form header{
+    background-color: rgba(255,255,255,1);
+    margin: 5px;
+    padding: 5px;
+    border-style: dashed;
+    border-top: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    border-color: rgba(0,0,220,1);
+}
+article section section header h1,
+article section form header h1{
+    color: rgba(220,0,0,1);
+}
+article section section header h2,
+article section form header h2{
+    color: rgba(220,0,0,1);
+}
+article td a{
+    display:inline-block;   
+    position:relative;
+}
+article img{
+    width: 175px;
+    height: auto;
+    margin: auto;
+}
+article td p{
+    display: none;
+}
+article td a:hover p{
+    display:block;
+    position:absolute;
+    left:0;
+    bottom:0;
+    width:100%;
+    box-sizing:border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box; 
+    border-style: 0px;
+    color:#fff;  
+    padding:10px;
+    margin-bottom: 4px;
+    background-color:rgba(0,0,0,.3);
+    z-index: 3;
+}
+article button a{
+    text-decoration: none;
+    color: #000;
+}

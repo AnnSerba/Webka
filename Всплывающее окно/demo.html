@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Модальные всплывающие окна с помощью CSS3</title>
+	<!-- стили страницы -->
+	<link rel="stylesheet" href="css/style-page.css" rel="stylesheet">
+	<!-- стили модального окна -->
+	<link rel="stylesheet" href="css/style-modal.css" rel="stylesheet">
+</head>
+<body>
+	<div class="container">
+		<h1>Зерочка не истери)</h1>
+		<hr>
+		<h2>Нажми на миниатюру</h2>
+		<!-- вызов окна по клику на миниатюре -->
+		<div style="text-align: center;">
+		<a href="#win5"><img title="Гиперреализм" src="img/realism_lrg.jpg" width="150" height="150" alt="Реалистичные Рисунки" /></a>
+	</div>
+		<hr>
+		<!-- Модальное окно -->
+		<a href="#x" class="overlay" id="win5"></a>
+		<div class="popup">
+			<img class="is-image" title="Гипперреализм" src="img/realism_lrg.jpg" alt="Гипперреализм" />
+			<a class="close" title="Закрыть" href="#close"></a>
+		</div>
+</body>
+</html>

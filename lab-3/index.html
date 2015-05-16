@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="scripts/datetime.js"></script>
+    <script src="scripts/setHistory.js"></script>
+    <script src="scripts/cookie.js"></script>
+    <title> Персональная страница </title>
+  </head>
+  <body onload="setInterval('getDateTime()',1000); setLocalStorangeTec('Главная'); setCookieAll('Главная');">
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="aboutMe.html">Обо мне</a></li>
+        <li><a href="myInterests.html">Мои интересы</a>
+          <ul>
+            <li><a href="myInterests.html#hobby">Моё хобби</a></li>
+            <li><a href="myInterests.html#books">Мои любимые книги</a></li>
+            <li><a href="myInterests.html#musics">Моя любимая музыка</a></li>
+            <li><a href="myInterests.html#films">Мои любимые фильмы</a></li>
+          </ul>
+        </li>
+        <li><a href="study.html">Учёба</a></li>
+        <li><a href="photoAlbum.html">Фотоальбом</a></li>
+        <li><a href="contact.html">Контакт</a></li>
+        <li id="history"><a href="history.html" >История</a></li>
+      </ul>
+    </nav>
+
+    <aside>
+      <h1>Серба Анна Владимировна</h1>
+      <h2>И-32д</h2>
+
+      <img src="images/mainImg.jpg" alt="Серба Анна Владимировна">
+      <datetime id='datatime'>
+    <script>getDateTime()</script>
+    </datetime>
+    </aside>
+
+
+    <header>
+      Лабораторные работы
+    </header>
+
+    
+    
+    <main>
+    <article>
+        <h3>Лабораторная работа №3</h3>
+        <h4>"Исследование  объектной модели документа (DOM) и системы событий JavaScript."</h4>
+        <p>
+        <time datetime="2015-02-12">
+          <span>Февраль</span>12
+        </time>
+        </p>
+    </article>
+    <article>
+        <h3>Лабораторная работа №2</h3>
+        <h4>"Исследование возможностей программирования на стороне клиента. Основы языка JavaScript.”"</h4>
+        <p>
+        <time datetime="2015-02-12">
+          <span>Апрель</span>12
+        </time>
+        </p>
+      </article>
+      <article>
+        <h3>Лабораторная работа №1</h3>
+        <h4>"Исследование возможностей языка разметки гипертекстов HTML и каскадных таблиц стилей CSS"</h4>
+        <p>
+        <time datetime="2015-02-12">
+          <span>Февраль</span>12
+        </time>
+        </p>
+    </article>
+
+    </main>
+    <footer>
+      <p> 2015 Имя компании.</p>
+
+    </footer>
+  </body>
+</html> 

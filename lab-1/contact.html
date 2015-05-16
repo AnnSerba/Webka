@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/nav.css">
+    <link rel="stylesheet" href="css/aside.css">
+    <link rel="stylesheet" href="css/article.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <title> Персональная страница </title>
+  </head>
+  <body>
+
+    <header>Персональная страница</header>
+    <nav>
+      <ul>
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="aboutMe.html">Обо мне</a></li>
+        <li><a href="myInterests.html">Мои интересы</a>
+          <ul>
+            <li><a href="myInterests.html#hobby">Моё хобби</a></li>
+            <li><a href="myInterests.html#books">Мои любимые книги</a></li>
+            <li><a href="myInterests.html#musics">Моя любимая музыка</a></li>
+            <li><a href="myInterests.html#films">Мои любимые фильмы</a></li>
+          </ul>
+        </li>
+        <li><a href="study.html">Учёба</a></li>
+        <li><a href="photoAlbum.html">Фотоальбом</a></li>
+        <li><a href="contact.html">Контакт</a></li>
+      </ul>
+    </nav>
+    <aside>
+        <section>
+          <header>
+          <h1>Серба Анна Владимировна</h1>
+          <h2>И-32д</h2>
+        </header>
+        <img src="images/mainImg.jpg" alt="Серба Анна Владимировна">
+        </section>
+    </aside>
+    
+    <article>
+      <section>
+        <header>
+          <h1>Отправка мне сообщения</h1>
+        </header>
+        <form METHOD=post action="mailto:annserba94@gmail.com" enctype="text/plain">
+          <header>
+            <h2>Введите ваши данные</h2>
+          </header>
+          <h3>Введите Вашу фамилию, имя и отчество:</h3>
+          <input type='text' />
+          <h3>Укажите Ваш пол:</h3>
+          <input type='radio' name='s' value='m' />Мужской<br />
+          <input type='radio' name='s' value='f' />Женский
+          <h3>Ваш возраст:</h3>
+          <input type='number' />
+          <h3>Ваш e-mail</h3>
+          <input type='email' />
+        <br/>
+        <br/>
+          <button type="submit" name="submit">
+            Отправить
+          </button>
+          <button type="reset" name="reset">
+            Очистить
+          </button>
+        </form>
+      </section>
+    </article>
+
+    <footer>
+      <p>&copy; 2015 Имя компании.</p>
+    </footer>
+  </body>
+</html> 

@@ -1,0 +1,88 @@
+
+html{
+    margin: 0px;
+    width: 100%;
+    height: auto;
+    background: url('../images/background.jpg') repeat;
+}
+body {
+    color: #000;
+    width: 868px; /* Ширина макета */
+    height: auto;
+    margin: 0px auto; /* Выравниваем по центру */
+    border-width: 0px 5px 0px 5px;
+    border-right-style: solid;
+    border-left-style: solid;
+    font-family: "PT Sans",Tahoma,Arial;
+}
+
+section,form,article{
+    border-style: dashed;
+    color: #fff;
+    border-color: rgba(0,0,220,1);
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+    margin: 15px;
+    padding-left: 0px;
+}
+
+table{
+    margin: 0px;
+    margin: 0px auto;
+    padding: 15px;
+    width: 568px;
+    color: #000;
+    background-color: rgba(255,255,255,0.7);
+    border: 0px;
+}
+p{
+    margin: 0px;
+    margin: 0px auto;
+    padding: 15px;
+    width: 538px;
+    color: #000;
+    background-color: rgba(255,255,255,0.7);
+    border: 0px;
+}
+table tr{
+    width: 100%;
+    height: auto;
+}
+table tr td{
+}
+
+input:invalid {
+    background: #fdd; /* Красный цвет фона */
+   }
+input:valid {
+    background: #dfd; /* Зеленый цвет фона */
+}
+
+header{
+    font-size: 1.6em;
+    text-transform:uppercase;
+    color: rgba(0, 0, 0, 1);
+    width: 488px;
+    margin: 10px;
+    margin-left: 15px;
+    padding: 10px;
+    float: left;
+    color: #fff;
+    text-align: center;
+    background-color: rgba(0,0,220,0.8);
+    -moz-border-radius: 5px; /* закругление для старых Mozilla Firefox */
+    -webkit-border-radius: 5px; /* закругление для старых Chrome и Safari */
+    -khtml-border-radius:5px; /* закругл. для браузера Konquerer системы Linux */
+    border-radius: 5px; /* закругление углов */
+}
+h1,h2,h3,h4{
+    font-size: 1em;
+    padding: 5px;
+    text-align: center;
+    margin: 0px;
+    padding: 5px;
+    color: #fff;
+    background-color: rgba(220,0,0,0.5);
+}
